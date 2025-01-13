@@ -1,12 +1,12 @@
-site_name: Site Name
-site_author: Author Name
+site_name: MindBicycle AI
+site_author: Gabriel Garrett
 site_description: >-
-  Site Description
+  Technical Resources for Executives aiming to transform their businesses with AI through concrete, practical knowledge
 repo_name: blog
-repo_url: https://github.com/jxnl/blog/
-site_url: https://jxnl.co/
+repo_url: https://github.com/ggaabe/technical-blog/
+site_url: https://mindbicycle.ai/
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2024 Jason Liu 
+copyright: Copyright &copy; 2025 Gabriel Garrett
 theme:
   name: material
   icon:
@@ -140,9 +140,9 @@ extra:
     property: G-XXXX
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/jxnlco # TODO: add link
+      link: https://twitter.com/gabgarrett # TODO: add link
     - icon: fontawesome/brands/github
-      link: https://github.com/jxnl # TODO: add link
+      link: https://github.com/ggaabe # TODO: add link
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
@@ -150,4 +150,4 @@ extra_javascript:
   - javascripts/analytics.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-copyright: Copyright &copy; 2023 Jason Liu
+copyright: Copyright &copy; 2025 Gabriel Garrett

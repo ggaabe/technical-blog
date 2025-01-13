@@ -1,0 +1,13 @@
+# version: "3"
+services:
+  mkdocs:
+    build: .
+    ports:
+      - "8005:8000"
+    volumes:
+      - ./:/docs
+    environment:
+      - PYTHONUNBUFFERED=1
+      - GITHUB_TOKEN
+    stdin_open: true
+    tty: true

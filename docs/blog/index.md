@@ -2,10 +2,10 @@
 
 Welcome to my technical blog where I share insights about:
 
-- AI System Implementation
-- Technical Architecture Design
-- Performance Optimization
-- Team Enablement
+- Leveraging an AI Mindset to multiply business value
+- Teaching executives hands-on AI skills in their daily work
+- Enabling teams to use AI to 10x their output with AI tools
+
 
 ## Featured Posts
 
