@@ -33,6 +33,11 @@ Create a professional consulting blog with the MkDocs Material theme.
    mkdocs gh-deploy
    ```
 
+   MacOS:
+   ```bash
+    docker compose run --rm mkdocs mkdocs gh-deploy --force
+   ```
+
 ## Tasks to Complete
 
 - [ ] Customize `mkdocs.yml` with your site details.

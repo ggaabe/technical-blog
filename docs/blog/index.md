@@ -3,8 +3,8 @@
 Welcome to my technical blog where I share insights about:
 
 - Leveraging an AI Mindset to multiply business value
-- Teaching executives hands-on AI skills in their daily work
-- Enabling teams to use AI to 10x their output with AI tools
+- Teaching executives hands-on AI skills to speed up their daily work
+- Enabling technical teams to use AI to 10x their output with AI tools
 
 
 ## Featured Posts
