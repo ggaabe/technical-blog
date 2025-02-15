@@ -4,7 +4,6 @@ on:
   push:
     branches: [ "main" ]  # or whichever branch you want to trigger on
 
-# Give the workflow the necessary permissions
 permissions:
   contents: write
   pages: write
@@ -21,9 +20,11 @@ jobs:
         run: docker compose build
 
       - name: Deploy MkDocs
-        # Uses the same command you run locally
-        run: docker compose run --rm mkdocs mkdocs gh-deploy --force
+        # We first configure Git to trust /docs inside the container, then run mkdocs gh-deploy
+        run: |
+          docker compose run --rm mkdocs bash -c " \
+            git config --global --add safe.directory /docs && \
+            mkdocs gh-deploy --force \
+          "
         env:
-          # This makes the GitHub Actions-provided token 
-          # available inside the container as GITHUB_TOKEN
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
