@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy MkDocs
         # Uses the same command you run locally
-        run: mkdocs gh-deploy
+        run: docker compose run --rm mkdocs mkdocs gh-deploy --force
         env:
           # This makes the GitHub Actions-provided token 
           # available inside the container as GITHUB_TOKEN
