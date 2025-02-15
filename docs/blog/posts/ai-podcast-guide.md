@@ -5,9 +5,11 @@ date:
 author:
  - me
 ---
+# How to Create an AI Podcast for Your Company with Google's NotebookLM
 
-Creating an AI podcast about your company using Google’s NotebookLM is a valuable way to create high-value marketing content. 
- process that leverages AI to transform your documents into engaging audio content. Follow this technical guide to produce a podcast that effectively communicates your company’s narrative.
+Creating an AI podcast about your company using Google’s NotebookLM is a valuable way to create high-value marketing content. It is a process that leverages AI to transform your success stories and value proposition into engaging audio content. Follow this technical guide to produce a podcast that effectively communicates your company’s narrative.
+<!-- more -->
+---
 
 Step 1: Access NotebookLM
 	1.	Navigate to NotebookLM and sign in with your Google account.
@@ -27,7 +29,7 @@ Step 4: Generate an Audio Overview
     4.	Click on the “Generate” button under the “Audio Overview” section.
 	5.	Wait for the AI to process your documents and create an audio summary.
 
-Step 6: Review and Download
+Step 5: Review and Download
 	1.	After generation, review the audio to ensure it aligns with your expectations.
 	2.	Download the audio file for distribution or further editing.
 

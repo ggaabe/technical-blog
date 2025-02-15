@@ -113,6 +113,8 @@ nav:
     - Introductions: 'index.md'
   - Blog:
     - "blog/index.md"
+  - Portfolio:
+    - "portfolio/index.md"
 plugins:
   - social
   - search:
