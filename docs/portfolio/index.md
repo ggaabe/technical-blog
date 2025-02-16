@@ -1,5 +1,6 @@
 #  AI Projects I've Built
 
+
 ## CogniCare AI
 
 CogniCare AI: AI Platform for Mental Health Professionals to provide better care to their clients through recording and transcribing patient sessions, generating clinical notes, and creating treatment plans.
@@ -9,6 +10,11 @@ CogniCare AI: AI Platform for Mental Health Professionals to provide better care
 
 SuperTab AI: AI Chrome extension for tab management that can locally run an LLM in a browser, group relevant tabs automatically, title the groups, and manage old tabs.
 
+<img src="supertab.png" alt="SuperTab AI Screenshot" width="640">
+
 ## AI Speed Test
 
 AI Speed Test: A platform for testing the speed throughput and response times of AI models from different LLM providers.
+
+<img src="speedtest.png" alt="AI Speed Test Screenshot" width="640">
+
