@@ -12,7 +12,7 @@ Creating an AI podcast about your company using Google’s NotebookLM is a valua
 ---
 ## Step 1: Access NotebookLM
 
-1. Navigate to NotebookLM and sign in with your Google account.
+1. [Navigate to NotebookLM](https://notebooklm.google.com/) and sign in with your Google account.
 
 ## Step 2: Create a New Notebook
 
@@ -44,7 +44,7 @@ Creating an AI podcast about your company using Google’s NotebookLM is a valua
 
 By following these steps, you can efficiently create a podcast that highlights your company's strengths and offerings.
 
-## Call to Action
+## Get Started Now
 
 For a more personalized and professional touch, consider collaborating with experts in podcast production. MindBike Technologies specializes in crafting compelling AI marketing content that resonates with your target audience. [**Book a Call**](https://cal.com/gabriel-garrett-dr9wdg/30min) with us today to elevate your company's podcast presence.
 
