@@ -18,13 +18,21 @@ If you're facing any of these challenges, I can help:
 
 ## Who I Am
 
-A specialized consultant helping teams transform their development processes through strategic AI implementation. I help organizations:
-
-- Dramatically accelerate development velocity
-- Optimize existing workflows through AI
-- Enable teams to leverage cutting-edge AI tools
-- Reduce costs while increasing output
-- Transform manual processes into automated systems
+<div class="profile-container" style="display: flex; align-items: center; margin-bottom: 20px;">
+    <div style="flex: 1;">
+        <p>A specialized consultant helping teams transform their development processes through strategic AI implementation. I help organizations:</p>
+        <ul>
+            <li>Dramatically accelerate development velocity</li>
+            <li>Optimize existing workflows through AI</li>
+            <li>Enable teams to leverage cutting-edge AI tools</li>
+            <li>Reduce costs while increasing output</li>
+            <li>Transform manual processes into automated systems</li>
+        </ul>
+    </div>
+    <div style="flex: 0 0 200px; margin-left: 20px;">
+        <img src="@profile.png" alt="Professional headshot" style="width: 100%; border-radius: 5px; box-shadow: 0 3px 10px rgba(0,0,0,0.2);">
+    </div>
+</div>
 
 <!-- ## Client Testimonials
 
