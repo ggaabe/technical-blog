@@ -1,6 +1,6 @@
 # Case Studies | MindBike Technologies
 
-## Case Study 1: 10x Development Speed for Payment Software Migration
+## 10x Development Speed for Payment Software Migration
 
 ### Client: TriplePlayPay (Payment Facilitation Company)
 
@@ -25,7 +25,7 @@ I implemented a comprehensive AI-powered development strategy:
 
 ---
 
-## Case Study 6: AI Development Transformation for Nonprofit
+## AI Development Transformation for Nonprofit
 
 ### Client: Foundation for American Innovation
 
@@ -101,7 +101,7 @@ I leveraged AI podcast generation technology to:
 
 --- -->
 
-## Case Study 4: AI-Enhanced Mental Health Platform for Counselors
+## AI-Enhanced Mental Health Platform for Counselors
 
 ### Client: Mental Health Practice in Pensacola
 
@@ -153,7 +153,7 @@ I utilized advanced AI video production tools to:
 
 
 
-## Case Study 7: AI-Powered Knowledge Management for Construction Company
+## AI-Powered Knowledge Management for Construction Company
 
 ### Client: $30M Scaffolding Company
 

@@ -85,8 +85,8 @@ markdown_extensions:
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: jxnl 
-      repo: instructor
+      user: ggaabe 
+      repo: technical-blog
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -110,7 +110,7 @@ markdown_extensions:
       generic: true
 nav:
   - Home: 
-    - Introductions: 'index.md'
+    - 'index.md'
   - Blog:
     - "blog/index.md"
   - Portfolio:
