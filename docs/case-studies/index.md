@@ -20,7 +20,8 @@ I implemented a comprehensive AI-powered development strategy:
 - Engineering team now self-sufficient with AI development tools
 
 #### Client Testimonial
-*"MindBike's expertise with AI coding tools transformed our development process. What would have taken months of manual work was completed in a fraction of the time, allowing us to focus on new features instead of maintenance."*
+> "Gabe got me started on using AI for all things in development, and 10x'd the speed of my development team. What would have taken months of manual work was completed in a fraction of the time, allowing us to focus on new features instead of maintenance."
+> - Jeremy Bolin, CTO of TriplePlayPay
 
 ---
 
@@ -45,7 +46,8 @@ I implemented a comprehensive AI development strategy:
 - CTO now independently maintains and expands the AI development system
 
 #### Client Testimonial
-*"MindBike's AI development training completely transformed our technical capabilities. We're now accomplishing with one engineer what previously required a team of five, while maintaining code quality and innovation."*
+> "My organization was considering hiring an assistant engineer for me. Thanks to the tools Gabe showed me, that role is no longer needed."
+> - Joey Livingston, CTO at the Foundation for American Innovation
 
 ---
 
