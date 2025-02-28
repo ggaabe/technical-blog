@@ -115,6 +115,8 @@ nav:
     - "blog/index.md"
   - Portfolio:
     - "portfolio/index.md"
+  - Case Studies:
+    - "case-studies/index.md"
 plugins:
   - social
   - search:
