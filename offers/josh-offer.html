@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="EGGSTRAVAGANZA! Josh Downes' Premium Egg Collection - The most egg-ceptional eggs you'll ever experience. Limited time offer!">
+    <meta property="og:title" content="🥚 Josh Downes - Ultimate Egg Collection">
+    <meta property="og:description"
+        content="Crack open a world of possibilities with Josh's Premium Eggs: Free-Range, Organic, and Luxury Eggs in one egg-citing package!">
+    <meta property="og:image" content="/api/placeholder/1200/630">
+    <meta property="og:url" content="https://josheggs.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-bottom: 100px;
+            background-color: #fffef0;
+            /* Egg shell color */
+        }
+
+        .banner {
+            background: linear-gradient(45deg, #f9d423, #ff4e50);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-align: center;
+            margin: 20px 0;
+            transform: rotate(-3deg);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .price {
+            font-size: 48px;
+            color: #ff9800;
+            text-align: center;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .strikethrough {
+            text-decoration: line-through;
+            color: #e74c3c;
+        }
+
+        .egg-box {
+            border: 3px dashed #ff9800;
+            border-radius: 30px;
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .egg-box::before {
+            content: "🥚";
+            position: absolute;
+            font-size: 80px;
+            opacity: 0.1;
+            right: -20px;
+            bottom: -20px;
+            transform: rotate(15deg);
+        }
+
+        .urgency {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 20px;
+            margin: 20px 0;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #ff9800;
+        }
+
+        .cta-button {
+            background: #ff9800;
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 28px;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 8px 15px rgba(255, 152, 0, 0.3);
+            z-index: 1000;
+            animation: wiggle 3s infinite;
+        }
+
+        @keyframes wiggle {
+
+            0%,
+            100% {
+                transform: translateX(-50%) rotate(0deg);
+            }
+
+            25% {
+                transform: translateX(-50%) rotate(-2deg);
+            }
+
+            75% {
+                transform: translateX(-50%) rotate(2deg);
+            }
+        }
+
+        .egg-svg {
+            display: block;
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+        }
+
+        .testimonial {
+            font-style: italic;
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .testimonial::before {
+            content: "" ";
+ font-size: 60px;
+            color: #ddd;
+            position: absolute;
+            top: -20px;
+            left: 5px;
+        }
+
+        .egg-counter {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin: 20px 0;
+        }
+
+        .egg-emoji {
+            font-size: 30px;
+            display: inline-block;
+            animation: spin 10s linear infinite;
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="logo">
+        Josh's Egg-cellent Emporium 🥚
+    </div>
+
+    <div class="banner">
+        🔥 EGG-SCLUSIVE PRICING AVAILABLE! 🔥<br>
+        First 5 Egg Enthusiasts Only!
+    </div>
+
+    <h1 style="text-align: center;">🥚 The Ultimate Egg Collection 🥚</h1>
+
+    <svg class="egg-svg" viewBox="0 0 100 120">
+        <ellipse cx="50" cy="60" rx="40" ry="50" fill="#fff" stroke="#ff9800" stroke-width="3" />
+        <circle cx="40" cy="50" r="5" fill="#ffcc80" />
+        <circle cx="60" cy="50" r="5" fill="#ffcc80" />
+        <path d="M40 70 Q50 80 60 70" fill="none" stroke="#ff9800" stroke-width="3" />
+    </svg>
+
+    <div class="price">
+        <span class="strikethrough">$99.99</span><br>
+        $49.99 per dozen!
+    </div>
+
+    <div class="egg-counter">
+        Only <span id="egg-count">127</span> eggs remaining!
+        <div class="egg-emoji">🥚</div>
+    </div>
+
+    <div class="egg-box">
+        <h2>🐓 Free-Range Luxury Eggs</h2>
+        <p>Eggs from chickens that live better than you do!</p>
+        <ul>
+            <li>🏆 Laid by chickens with college degrees</li>
+            <li>🌿 Fed only organic, gluten-free, non-GMO feed</li>
+            <li>🧘‍♀️ Chickens practice daily meditation and yoga</li>
+            <li>🎵 Classical music played 24/7 in the coop</li>
+        </ul>
+    </div>
+
+    <div class="egg-box">
+        <h2>💎 Diamond-Infused Eggs</h2>
+        <p>The only eggs with REAL diamond dust in the shell!</p>
+        <ul>
+            <li>✨ Shells sparkle under any light</li>
+            <li>💰 Potentially valuable after consumption</li>
+            <li>👑 Eaten by royalty and celebrities</li>
+            <li>📸 100% Instagram-worthy breakfast</li>
+        </ul>
+    </div>
+
+    <div class="egg-box">
+        <h2>🧠 AI-Enhanced Smart Eggs</h2>
+        <p>The world's first eggs with built-in artificial intelligence!</p>
+        <ul>
+            <li>🤖 Eggs that know when they're about to be cooked</li>
+            <li>📱 Bluetooth connectivity (batteries not included)</li>
+            <li>🗣️ Eggs that whisper motivational quotes when cracked</li>
+            <li>📈 Self-improving taste with each bite</li>
+        </ul>
+    </div>
+
+    <div class="testimonial">
+        "I used to think eggs were just eggs until I tried Josh's collection. Now my chickens refuse to lay eggs out of
+        shame." - Gordon Ramsay (not really)
+    </div>
+
+    <div class="testimonial">
+        "I cracked one of Josh's eggs and my credit score improved by 50 points!" - Warren Buffett (definitely not)
+    </div>
+
+    <div class="urgency">
+        ⚡ EGG-STREMELY LIMITED TIME OFFER ⚡<br>
+        These eggs won't wait forever! They might hatch!
+    </div>
+
+    <div style="text-align: center;">
+        <h2>🎁 Egg-stra Bonus Features</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li>✨ Free egg timer shaped like an egg</li>
+            <li>🎯 Egg-shaped stress ball for when you drop an egg</li>
+            <li>📊 Monthly egg consumption analytics</li>
+            <li>🔧 24/7 egg emergency hotline</li>
+        </ul>
+    </div>
+
+    <svg width="100%" height="100" style="margin: 20px 0;">
+        <path d="M10,50 Q50,10 90,50 Q50,90 10,50" fill="#fff" stroke="#ff9800" stroke-width="3" />
+        <text x="50" y="55" text-anchor="middle" fill="#ff9800" font-weight="bold">EGGS!</text>
+    </svg>
+
+    <div class="banner" style="transform: rotate(3deg);">
+        Buy Now or Forever Hold Your Yolk! 🍳
+    </div>
+
+    <a href="#" class="cta-button">
+        CLAIM YOUR EGGS NOW! 🥚
+    </a>
+
+    <div style="text-align: center; font-size: 12px; color: #666; margin-top: 30px;">
+        <p>Warning: Eggs may not actually contain diamonds, AI, or improve your social status.<br>
+            Side effects may include excessive egg puns and chicken-related dreams.<br>
+            Josh Downes is not responsible for any egg-related incidents or egg-cidents.</p>
+    </div>
+
+    <script>
+        // Ridiculous egg counter script
+        setInterval(function () {
+            const count = document.getElementById('egg-count');
+            if (parseInt(count.innerText) > 1) {
+                count.innerText = parseInt(count.innerText) - Math.floor(Math.random() * 3);
+            }
+        }, 5000);
+    </script>
+
+</body>
+
+</html>
