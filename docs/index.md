@@ -30,7 +30,7 @@ If you're facing any of these challenges, I can help:
         </ul>
     </div>
     <div style="flex: 0 0 200px; margin-left: 20px;">
-        <img src="@profile.png" alt="Professional headshot" style="width: 100%; border-radius: 5px; box-shadow: 0 3px 10px rgba(0,0,0,0.2);">
+        <img src="/docs/blog/profile.png" alt="Professional headshot" style="width: 100%; border-radius: 5px; box-shadow: 0 3px 10px rgba(0,0,0,0.2);">
     </div>
 </div>
 
